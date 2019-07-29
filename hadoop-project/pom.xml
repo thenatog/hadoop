@@ -69,7 +69,7 @@
 
     <!-- jackson versions -->
     <jackson.version>1.9.13</jackson.version>
-    <jackson2.version>2.9.9</jackson2.version>
+    <jackson2.version>2.9.9.2</jackson2.version>
 
     <!-- httpcomponents versions -->
     <httpclient.version>4.5.6</httpclient.version>
@@ -1952,7 +1952,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
